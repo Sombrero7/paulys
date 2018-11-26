@@ -38,22 +38,34 @@ table {
     background-color: RGBA(0, 0, 0, 0.61);
     min-height: 630px;
 }
+/* TODO: description under "pauly's at earls" */
 #banner h2{
     font-family: 'Satisfy', sans-serif;
-    font-size: 45px;
-    color: #FFB03B;
+    font-size: 36px;
+    /* color: #FFB03B; */
+    color: #ffffff
 }
+
+/*TODO: added font, color, and size adjustmnet for h3*/
+#banner h3{
+    font-family: 'Georgia', sans-serif;
+    font-size: 20px;
+    /* color: #FFB03B; */
+    color: #ffffff
+}
+
 #banner p{
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Georgia', sans-serif;
     color: #fcfcfc;
     font-size: 34px;
 }
 .section-padding{
     padding: 60px 0px;
 }
+/* TODO: "Pauly's At Earls" */
 .logo-name{
     font-family: 'Satisfy', sans-serif;
-    font-size: 65px;
+    font-size: 100px;
     margin-top: 140px;
     color: #FFB03B;
 }
@@ -100,13 +112,13 @@ table {
 }
 
 .header-h {
-    color: #FFB03B;
+    color: #FFB03B; /* TODO: weekly specials, about us */
     font-size: 46px;
     font-family: 'Satisfy', sans-serif;
     font-weight: 300;
 }
 .header-p {
-    color: #9699a6;
+    /* color: #9699a6; /*TODO: unkown purpose, color is grey */ */
     font-size: 16px;
 }
 .msg-row {
@@ -115,7 +127,11 @@ table {
 .media-body, .media-left, .media-right {
     display: table-cell;
     vertical-align: top;
+    width: 1000px;
+    text-align:center;
+
 }
+
 .bg-13 {background-color: #f04e4e;
     width: 70px;
     height: 70px;
@@ -156,6 +172,7 @@ table {
 }
 .media-2 {
     margin-top: 30px;
+    text-align: center;;
 }
 .newinput .form-group {
     margin: 8px 0 9px !important;
@@ -250,7 +267,7 @@ table {
     color: rgb(255, 255, 255);
 }
 
-
+/* //TODO: "some description here" */
 .heading{
     font-family: 'Satisfy', sans-serif;
     color: #FFB03B;
@@ -291,32 +308,43 @@ table {
     padding: 20px 20px 30px 30px;
     overflow: auto;
 }
+/* TODO: description of special deals */
 .content-holder h2 {
     color: #FFB03B;
-    font-size: 32px;
+    font-size: 40px;
     padding-bottom: 15px;
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'Georgia', sans-serif;
 }
 .content-holder address strong {
     color: #FFB03B;
+    /* TODO: weekly special day headers */
+    font-size: 20px;
     padding: 10px 0px;
+    /* // increases spacing, looks nicer */
+    line-height: 50px;
+    font-family: Palatino, sans-serif;
 }
 .details-text p {
     color: #E8E8E8;
     line-height: 26px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+    word-spacing: 0.25px;
     font-weight: 300;
+    /* TODO: weekly special description font */
+    font-family: Palatino, sans-serif;
+    line-height: 20px;
 }
+/* TODO: check twitter button */
 .btn-read-more {
-    background: #FFB03B;
+    background: #38A1F3;
     padding: 7px 19px;
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 17px;
     font-weight: 400;
     letter-spacing: 1px;
     border-radius: 3px;
-    color: #000;
+    color: #FFFFFF;
     text-transform: uppercase;
     margin-top: 10px;
 }
@@ -336,6 +364,7 @@ table {
 .menu-restaurant .menu-title {
     float: left;
     font-family: Montserrat,arial;
+    font-size: 80;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #FFB03B;
@@ -353,12 +382,13 @@ table {
     right: 0;
     top: 0;
 }
+/* TODO: menu subdescription */
 .menu-restaurant .menu-subtitle {
     display: block;
     float: left;
     color: #B1B1B1;
-    font-family: Satisfy,'Open Sans',arial;
-    font-size: 1.2rem;
+    font-family: 'Open Sans',arial;
+    font-size: 1.5rem;
 }
 .menu-restaurant span.clearfix {
     position: relative;
@@ -380,7 +410,8 @@ table {
 #menu-flters ul li a {
     padding: 10px 20px;
     font-size: 14px;
-    color: #565656;
+    /* color: #565656; */
+    color: #ff0000
     border-radius: 0px;
     border: 1px solid #BBBBBB;
     text-decoration: none;
@@ -428,6 +459,8 @@ table {
 }
 #contact{
     background-color: rgba(221, 221, 221, 0.33);
+    vertical-align: middle;
+    text-align: center;
 }
 .footer .social-list a {
     font-size: 32px;
