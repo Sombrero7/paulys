@@ -60,7 +60,11 @@ table {
     font-size: 34px;
 }
 .section-padding{
-    padding: 60px 0px;
+    padding: 60px 60px;
+}
+
+.section-padding-2{
+    padding: 10px 10px;
 }
 /* TODO: "Pauly's At Earls" */
 .logo-name{
@@ -128,7 +132,7 @@ table {
     display: table-cell;
     vertical-align: top;
     width: 1000px;
-    text-align:center;
+    text-align: center;
 
 }
 
@@ -172,7 +176,7 @@ table {
 }
 .media-2 {
     margin-top: 30px;
-    text-align: center;;
+    text-align: center;
 }
 .newinput .form-group {
     margin: 8px 0 9px !important;
@@ -264,7 +268,7 @@ table {
 {
     font-size: 35px;
     line-height: 70px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0)
 }
 
 /* //TODO: "some description here" */
@@ -378,7 +382,7 @@ table {
 }
 .menu-restaurant .menu-price {
     font-weight: 600;
-    position: absolute;
+    position: relative;
     right: 0;
     top: 0;
 }
@@ -509,3 +513,5 @@ table {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
+
