@@ -69,9 +69,9 @@ table {
 /* TODO: "Pauly's At Earls" */
 .logo-name{
     font-family: 'Satisfy', sans-serif;
-    font-size: 100px;
+    font-size: 80px;
     margin-top: 140px;
-    color: #FFB03B;
+    color: rgb(255, 59, 59);
 }
 .sidenav {
     height: 100%;
@@ -116,7 +116,7 @@ table {
 }
 
 .header-h {
-    color: #FFB03B; /* TODO: weekly specials, about us */
+    color: rgb(255, 59, 59); /* TODO: weekly specials, about us */
     font-size: 46px;
     font-family: 'Satisfy', sans-serif;
     font-weight: 300;
@@ -274,7 +274,7 @@ table {
 /* //TODO: "some description here" */
 .heading{
     font-family: 'Satisfy', sans-serif;
-    color: #FFB03B;
+    color: rgb(255, 59, 59);
     font-size: 24px;
 }
 .marb-35{
@@ -285,11 +285,11 @@ table {
 }
 .details-list ul li i {
     margin-right: 10px;
-    color: #ffb03b;
+    color: #ff3b3b;
 }
 #about img
 {
-    border: 5px solid rgb(255, 176, 59);
+    border: 5px solid rgb(255, 59, 59);
     border-radius: 2px;
 }
 #event{
@@ -314,13 +314,13 @@ table {
 }
 /* TODO: description of special deals */
 .content-holder h2 {
-    color: #FFB03B;
+    color: rgb(255, 59, 59);
     font-size: 40px;
     padding-bottom: 15px;
     font-family: 'Georgia', sans-serif;
 }
 .content-holder address strong {
-    color: #FFB03B;
+    color: rgb(255, 59, 59);
     /* TODO: weekly special day headers */
     font-size: 20px;
     padding: 10px 0px;
@@ -371,10 +371,10 @@ table {
     font-size: 80;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FFB03B;
+    color: rgb(255, 59, 59);
 }
 .menu-restaurant .menu-line {
-    position: absolute;
+    position: relative; /* can be relative */
     bottom: 6px;
     border-bottom: 1px dotted rgba(0,0,0,.3);
     margin-left: .6rem;
@@ -393,6 +393,7 @@ table {
     color: #B1B1B1;
     font-family: 'Open Sans',arial;
     font-size: 1.5rem;
+    margin-right: 20%;
 }
 .menu-restaurant span.clearfix {
     position: relative;
@@ -400,9 +401,9 @@ table {
 }
 
 #menu-flters ul li a.active, #menu-flters ul li a:hover {
-    background: #FFB03B;
+    background: rgb(255, 59, 59);
     color: #fff;
-    border: 1px solid #FFB03B;
+    border: 1px solid rgb(255, 59, 59);
 }
 #menu-flters ul li {
     display: inline-block;
@@ -446,7 +447,7 @@ table {
     padding-bottom: 20px;
     font-family: 'Satisfy', sans-serif;
     font-size: 44px;
-    color: #FFB03B;
+    color: rgb(255, 59, 59);
 }
 .footer .widget, .footer address {
     color: #999;
@@ -469,7 +470,7 @@ table {
 .footer .social-list a {
     font-size: 32px;
     font-weight: normal;
-    color: #fff;
+    color: rgb(255, 59, 59);
     text-transform: uppercase;
     margin: 0 5px;
 }
