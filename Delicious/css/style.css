@@ -304,11 +304,10 @@ table {
     padding: 0px;
 }
 .details-text {
-    border-right: 2px solid #841b2d;
+    border-right: 0px solid rgb(255, 59, 59);
 }
 .details-text {
     background-color: rgba(14, 4, 4, 0.70);
-    border-right: 2px solid #A87F41;
     padding: 20px 20px 30px 30px;
     overflow: auto;
 }
@@ -351,6 +350,7 @@ table {
     color: #FFFFFF;
     text-transform: uppercase;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .btn-read-more:hover
 {
@@ -485,7 +485,7 @@ table {
 @media (min-width: 451px) and (max-width: 767px) {
     .details-text {
         border:0px;
-        border-bottom: 2px solid #A87F41;
+       
     }
 }
 @media (min-width: 20px) and (max-width: 450px) {
@@ -494,7 +494,7 @@ table {
     }
     .details-text {
         border:0px;
-        border-bottom: 2px solid #A87F41;
+        
     }
     .header-h {
         font-size: 35px;
