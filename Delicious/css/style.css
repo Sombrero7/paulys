@@ -423,6 +423,25 @@ table {
     cursor: pointer;
 }
 
+/* TODO: download our app */
+.download-app {
+    font-family: 'Satisfy', sans-serif;
+    font-size: 40px;
+    margin-top: 50px;
+    color: rgb(255, 59, 59);
+}
+
+/* TODO: check out our website */
+.snakc-website {
+    font-family: 'Satisfy', sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: rgb(255, 59, 59);
+}
+
 .footer {
     width: 100%;
     background-color: #222;
@@ -485,7 +504,7 @@ table {
 @media (min-width: 451px) and (max-width: 767px) {
     .details-text {
         border:0px;
-       
+
     }
 }
 @media (min-width: 20px) and (max-width: 450px) {
@@ -494,7 +513,7 @@ table {
     }
     .details-text {
         border:0px;
-        
+
     }
     .header-h {
         font-size: 35px;
@@ -514,5 +533,3 @@ table {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
-
-
