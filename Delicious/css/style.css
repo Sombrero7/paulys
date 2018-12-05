@@ -123,7 +123,18 @@ table {
 }
 .header-p {
     /* color: #9699a6; /*TODO: unkown purpose, color is grey */ */
-    font-size: 16px;
+
+    font-size: 18px;
+    font-family: 'Georgia', sans-serif;
+    color: #000000;
+    border: 5px solid red;
+    border-style: double;
+    border-radius: 15px;
+    border-spacing: 35px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 .msg-row {
     margin-top: 56px;
