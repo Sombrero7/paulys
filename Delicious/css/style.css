@@ -454,6 +454,12 @@ table {
   cursor: pointer;
 }
 
+.snakclogo {
+    width: 100%;
+    height: auto;
+    max-width: 131px;
+}
+
 /* TODO: download our app */
 .download-app {
   font-family: "Satisfy", sans-serif;
